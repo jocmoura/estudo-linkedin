@@ -1,0 +1,16 @@
+@media screen  and (max-width:800px){
+    
+    section{
+        flex-direction: column;
+        display: block;
+    }
+}
+
+@media screen  and (max-width:400px){
+    
+    .cidade{
+        flex-direction: column;
+        display: block;
+    }
+    
+}

@@ -1,0 +1,146 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.imagem-capa{
+    width: 100%;
+    min-height: 120px;
+}
+.imagem-capa img{
+    height: 150px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-position: fixed;
+}
+
+.photo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    border: 5px solid white;
+}
+section{
+    display: flex;
+}
+
+.conteudo-principal{
+    margin: 80px 0 0 30px;
+
+}
+.nome{
+    display: inline;
+}
+.nome h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skills p, .cidade{
+    cursor: pointer;
+    padding: 0 5px 0 0;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.0rem;
+    display: flex;
+    color: #111111;
+}
+.blu{
+    color: #0A66C2;
+    font-weight: bold;
+    
+}
+.transp{
+    color: rgb(107, 107, 107);
+    margin-right: 5px;
+}
+.conecoes{
+    cursor: pointer;
+}
+.seguidores-conecoes{
+    color: #0A66C2;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.blu:hover{
+    border-bottom: 1px solid #0A66C2;
+}
+
+.saber-mais{
+    display: flex;
+}
+.btn, .btn-two{
+    margin: 5px 20px 0 0;
+    padding: 8px 16px;
+    color: white;
+    background-color: #0A66C2;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.btn-two:hover{
+    background-color: #094b8c;
+}
+.btn:hover{
+    background-color: #094b8c;
+}
+.quadrado{
+    width:40px;
+    height:40px;
+    background-color: #0A66C2;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.quadrado, .dados-empresa{
+    display: flex;
+    
+}
+.dados-empresa{
+    margin: 15px 0 0 25px;
+    display: flex;
+    
+}
+.dados-empresa-h{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.blocos{
+    display: flex;
+}
+.buscar-emprego{
+    background-color: rgba(95, 94, 93, 0.282);
+    margin: 15px 5px 20px 30px;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: center;
+    box-sizing:border-box;
+}
+.buscar-emprego h4{
+    color: #111111d3;
+    font-size: 1.1rem;
+}
+.buscar-emprego p{
+    color: #111111c2;
+    font-size: 1.0rem;
+}
+.buscar-emprego a{
+    color: #0A66C2;
+    text-decoration: none;
+    font-size: 1.0rem;
+}
+
