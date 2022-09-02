@@ -4,7 +4,63 @@
     margin: 0;
     font-family: 'Poppins', sans-serif;
 }
+/* Menu/ Header */
+header{
+    height: 50px;
+    width:100%;
+    background-color:#111111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo-linkedin{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 6%;
+    position: relative;
+}
+/* input pesquisa. */
+.pesquisa input{
+    background-color: #094a8c7b;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    height: 14px;
+    font-size: 12px;
+}
+.pesquisa input::placeholder{
+    color: rgba(240, 248, 255, 0.535);
+    
+}
 
+
+
+
+/* menu navegação. */
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 5px;
+    font-size: 12px;
+    list-style: none;
+    flex-direction: column;
+}
+nav ul li .material-symbols-outlined{
+    color: white;
+    
+    
+}
+nav ul li a{
+    color: rgba(240, 248, 255, 0.535);
+    text-decoration: none;
+
+}
+/* fim menu navegação. */
+
+/* Imagens  */
 .imagem-capa{
     width: 100%;
     min-height: 120px;
@@ -29,7 +85,7 @@
 section{
     display: flex;
 }
-
+/* Main/ Principal */
 .conteudo-principal{
     margin: 80px 0 0 30px;
 
